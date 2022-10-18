@@ -25,13 +25,11 @@ function searchCountry() {
       if (countries.length > 1 && countries.length <= 10) {
         list.insertAdjacentHTML('beforeend', countryList(countries));
         info.innerHTML = '';
-
       }
       if (countries.length === 1) {
         info.innerHTML = countryInfo(countries[0]);
         list.innerHTML = '';
       }
-    
     }
     ).catch((error) => {
       Notify.failure('Oops, there is no country with that name');
