@@ -19,13 +19,16 @@ body {
   margin-bottom: 16px;
 }
 
-.list-item {display: flex;
-  margin-bottom: 10px;
+.list__item {
   list-style: none;
-  height: 30px;
+  height: 40px;
 }
 
-.list-name {margin: 0;
-  margin-left: 10px;
+.list__name {margin: 0;
   font-size: 20px;
+  font-weight: normal;
+}
+
+.list__flag {
+  margin-right: 10px;
 }
