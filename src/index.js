@@ -37,4 +37,4 @@ function searchCountry() {
     //     console.log(flags.svg);
     //     console.log(Object.values(languages));
     //     }
-    console.log(8);
+    console.log('dsfa');
